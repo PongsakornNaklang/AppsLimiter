@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/dialog"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#424242"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="40dp"
+        android:paddingLeft="10sp"
+        android:paddingTop="20sp"
+        android:paddingRight="10sp"
+        android:text="@string/title_dialog"
+        android:textColor="@color/title"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/menu1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="10sp"
+        android:text="@string/menu1_dialog"
+        android:textColor="@color/title"
+        android:textSize="14sp" />
+
+    <EditText
+        android:id="@+id/time_for_use"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="10dp"
+        android:hint="@string/minute_dialog"
+        android:inputType="number"
+        android:shadowColor="#00FFFFFF"
+        android:textColor="#C6C6C6"
+        android:textColorHint="#C6C6C6"
+        android:textSize="14sp"
+        android:backgroundTint="@android:color/white"/>
+
+    <TextView
+        android:id="@+id/menu2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="10sp"
+        android:text="@string/menu2_dialog"
+        android:textColor="@color/title"
+        android:textSize="14sp" />
+
+    <EditText
+        android:id="@+id/time_for_lock"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="10dp"
+        android:hint="@string/minute_dialog"
+        android:inputType="number"
+        android:textColor="#C6C6C6"
+        android:textColorHint="#C6C6C6"
+        android:textSize="14sp"
+        android:backgroundTint="@android:color/white"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="1">
+
+        <Button
+            android:id="@+id/button_cancel"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.5"
+            android:background="@drawable/btn_color_style"
+            android:padding="16dp"
+            android:text="@string/cancelbtn_dialog"
+            android:textColor="#ffff"
+            android:textColorHint="#fff" />
+
+        <Button
+            android:id="@+id/button_submit"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.5"
+            android:background="@drawable/btn_color_style2"
+            android:padding="16dp"
+            android:text="@string/submitbtn_dialog"
+            android:textColor="#ffff" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Apps Limiter</string>
+    <string name="description_main">จำกัดการใช้งานแอพพลิเคชั่น</string>
+    <string name="locked_screen">แอพพลิเคชั่นนี้ถูกล็อคอยู่</string>
+    <string name="title_dialog">ตั้งเวลาหยุดการใช้งานแอพ</string>
+    <string name="menu1_dialog">เวลาในการใช้งาน(นาที): </string>
+    <string name="menu2_dialog">เวลาที่หยุดใช้งาน(นาที): </string>
+    <string name="submitbtn_dialog">ตกลง</string>
+    <string name="cancelbtn_dialog">ยกเลิก</string>
+    <string name="minute_dialog">นาที</string>
+    <string name="name_of_app">name_of_app</string>
+    <string name="status_of_app">status_of_app</string>
+</resources>
